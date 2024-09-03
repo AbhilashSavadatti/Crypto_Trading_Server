@@ -8,9 +8,10 @@ import com.abhi.model.User;
 import com.abhi.repository.UserRepository;
 //import com.abhi.request.LoginRequest;
 //import com.abhi.response.AuthResponse;
-//import com.abhi.service.*;
+import com.abhi.service.*;
 //import com.abhi.utils.OtpUtils;
 //import jakarta.mail.MessagingException;
+
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
