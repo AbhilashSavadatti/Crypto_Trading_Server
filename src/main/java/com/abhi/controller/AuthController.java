@@ -1,17 +1,17 @@
 package com.abhi.controller;
 
 
-//import com.abhi.config.JwtProvider;
+import com.abhi.config.JwtProvider;
 //import com.abhi.exception.UserException;
-//import com.abhi.model.TwoFactorOTP;
+import com.abhi.model.TwoFactorOTP;
 import com.abhi.model.User;
 import com.abhi.repository.UserRepository;
 //import com.abhi.request.LoginRequest;
 import com.abhi.response.AuthResponse;
 import com.abhi.service.*;
-//import com.abhi.utils.OtpUtils;
 //import jakarta.mail.MessagingException;
 
+import com.abhi.utils.OtpUtils;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +23,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
-i//mport org.springframework.security.oauth2.client.authentication.OAuth2AuthenticationToken;
+//import org.springframework.security.oauth2.client.authentication.OAuth2AuthenticationToken;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
